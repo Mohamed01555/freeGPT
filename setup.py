@@ -8,7 +8,7 @@ setup(
     description="freeGPT provides free access to text and image generation models.",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Ruu3f/freeGPT",
+    url="https://github.com/Mohamed01555/freeGPT",
     author="Ruu3f",
     license="GPLv3",
     keywords=[
@@ -48,6 +48,6 @@ setup(
         "aiohttp",
     ],
     project_urls={
-        "Source": "https://github.com/Ruu3f/freeGPT",
+        "Source": "https://github.com/Mohamed01555/freeGPT",
     },
 )
