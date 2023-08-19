@@ -5,12 +5,8 @@ freeGPT's gpt4 module
 from os import system
 from uuid import uuid4
 from re import findall
+import tls_client
 
-try:
-    import tls_client
-except ModuleNotFoundError:
-    system("pip install tls_client --no-cache-dir")
-    import tls_client
 
 class Completion:
     """
